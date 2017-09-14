@@ -1,0 +1,77 @@
+body{
+	font-family: "Arial";
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+.content{
+	max-width: 760px;
+	margin:auto;
+	background: #fff;
+}
+header{
+	width: 100%;
+	background: #DC4C43;
+	padding: 10px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+}
+nav a:hover{	text-decoration: underline;
+}
+header a{
+	color: #fff;
+}
+.title{
+	padding: 15px;background: #DC4C43;color: #fff;text-align: center
+}
+.page-header{
+	color: #3E34B6;text-align: center
+}
+img,video {
+    vertical-align: middle;
+}
+.movie{
+	padding: 20px;overflow: hidden;
+}
+.movie img{
+	width: 150px;height:210px;float: left;margin-right: 15px
+}
+img.mini-poster{
+	width: 70px;height:100px;float: left
+}
+.movie .rating{
+	font-size: 14px;font-weight: bold;
+	border-radius: 50%;
+	padding: 7px;
+	background: #EEEB75
+}
+.trailers{
+	overflow: hidden;
+}
+.trailers video{
+	width: 50%;height:220px;float: left
+}
+header nav{
+	display: inline-block;
+	margin-left: 30px 
+}
+nav a{
+	margin-right: 10px
+}
+nav.browse{
+	padding: 15px 15px 0 15px;text-align: center;
+}
+nav.browse a{
+	color: #1B3DB4
+}
+.logo{
+	font-size: 24px;
+	font-weight: bold;
+	background: #FDEFEE;
+	border-radius:4px; 
+	padding: 5px;
+	color: #D62E25
+}
